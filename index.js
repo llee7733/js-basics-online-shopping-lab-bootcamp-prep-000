@@ -60,9 +60,9 @@ function placeOrder(cardNumber) {
 
 
 console.log(`Your total cost is $${total()}, which will be charged to the card ${cardNumber}.`)
-+
-+  cart = []
-+}
-+
+
+  cart = []
+}
+
  function total() {
-   let t = 0
+ let t = 0
