@@ -1,16 +1,20 @@
 var cart = [];
-
+  
 function getCart() {
  return cart;
 }
 
-function setCart(c) {
-  cart = c;
+function setCart(newCart) {
+  cart = newCart;
   return cart;
 }
 
 function addToCart(item) {
- // write your code here
+ const price = Math.floor(Math.random() * 100)
+ cart.push({[item]:price});
+ console.log('${item} has been added to your cart.')
+ 
+ return cart;// write your code here
 }
 
 function viewCart() {
